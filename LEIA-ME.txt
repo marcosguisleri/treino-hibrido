@@ -1,0 +1,28 @@
+HÍBRIDO — MEU TREINO (MINIAPLICATIVO)
+====================================
+
+OPÇÃO 1 — USAR SEM PUBLICAR
+Abra o arquivo treino_hibrido_app_celular.html diretamente no navegador do celular.
+Importante: o salvamento local de arquivos HTML depende do navegador; faça backups JSON.
+
+OPÇÃO 2 — INSTALAR COMO APLICATIVO (PWA) — RECOMENDADA
+1. Crie um repositório no GitHub (exemplo: treino-hibrido).
+2. Descompacte este ZIP e envie os 5 arquivos para a raiz do repositório:
+   index.html, manifest.webmanifest, sw.js, icon-192.png e icon-512.png.
+3. No GitHub, abra Settings → Pages, escolha Deploy from a branch, branch main, /(root).
+4. Abra o endereço HTTPS publicado no Chrome do Android.
+5. Use Menu (⋮) → Instalar aplicativo ou Adicionar à tela inicial (conforme o navegador).
+
+Armazenamento: os dados ficam no navegador/celular, SEM sincronização automática.
+Em Dados, exporte backups .json regularmente (Drive ou WhatsApp para você mesmo).
+O CSV pode ser aberto no Excel no computador. O JSON restaura seus registros no app.
+NÃO apague os dados do site antes de salvar um backup.
+
+O app funciona sem conexão após ser carregado, exceto os links para guias de exercícios.
+
+NOVO V4 — AJUDA VISUAL
+- Cada exercicio tem ilustracao esquematica offline, guia de regulagem/execucao e pesquisa de videos no YouTube.
+- Alguns movimentos tambem tem video especifico com miniatura (exige conexao para carregar a miniatura).
+- Para outros o botao abre uma BUSCA de videos, nao um tutorial escolhido.
+- Ao atualizar PWA hospedada substitua todos os arquivos no seu endereco existente.
+- Dados salvos no mesmo navegador e dominio continuam usando a chave de armazenamento da versao anterior. Exporte backup antes de atualizar.
